@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-garuda-slick",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Slick Slider addon for Ember CLI.",
   "directories": {
     "doc": "doc",

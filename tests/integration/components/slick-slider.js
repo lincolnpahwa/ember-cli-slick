@@ -11,15 +11,15 @@ test('it renders', function(assert) {
   // Set any properties with this.set('myProperty', 'value');
   // Handle any actions with this.on('myAction', function(val) { ... });
 
-  this.render(hbs`{{ember-cli-slick}}`);
+  this.render(hbs`{{ember-cli-garuda-slick}}`);
 
   assert.equal(this.$().text().trim(), '');
 
   // Template block usage:
   this.render(hbs`
-    {{#ember-cli-slick}}
+    {{#ember-cli-garuda-slick}}
       template block text
-    {{/ember-cli-slick}}
+    {{/ember-cli-garuda-slick}}
   `);
 
   assert.equal(this.$().text().trim(), 'template block text');

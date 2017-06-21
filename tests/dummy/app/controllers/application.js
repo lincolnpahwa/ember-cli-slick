@@ -25,6 +25,9 @@ export default Ember.Controller.extend({
 		  }
 		}
 	],
+
+	loops: [1, 2, 3, 4, 5],
+
 	actions: {
 		afterChange: function(slick, currentSlide) {
 			console.log('afterChange', slick, currentSlide);

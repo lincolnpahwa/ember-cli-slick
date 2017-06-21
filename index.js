@@ -3,7 +3,7 @@
 var path = require('path');
 
 module.exports = {
-  name: 'ember-cli-slick',
+  name: 'ember-cli-garuda-slick',
 
   blueprintsPath: function() {
     return path.join(__dirname, 'blueprints');
